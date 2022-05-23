@@ -5,3 +5,5 @@ WORKDIR /app
 COPY src/hello.c /app/
 RUN gcc -o hello hello.c 
 ENTRYPOINT ["/app/hello"]
+
+# This is a bad Dockerfile, not optimized
